@@ -11,7 +11,7 @@ export const getCvData = (lang: Language = 'pt') => {
         whatsapp: "5511976320011",
         linkedin: "https://www.linkedin.com/in/geandro-ara%C3%BAjo/",
         github: "https://github.com/geandrol",
-        portfolioGithub: "https://github.com/Marcelo7211",
+        portfolioGithub: "https://github.com/geandrol/portf-lio-geandro",
         cvUrl: "",
         summary: "Profissional com mais de 04 anos de experiência em desenvolvimento de software e liderança técnica. Atua na interseção entre tecnologia, educação e transformação digital, com foco em sistemas escaláveis, alta disponibilidade e formação de equipes de alto desempenho."
       },
@@ -79,8 +79,8 @@ export const getCvData = (lang: Language = 'pt') => {
               title: "Instrutor Líder de Desenvolvimento FullStack",
               period: "2021 – Atual",
               description: [
-               "Desenvolvimento Full Stack com Node.js/TypeScript, Spring Boot/Java, Angular/TypeScript, React/TypeScript e SQL Server/MySQL. Arquitetura de sistemas escaláveis, liderança técnica e mentoria de equipes.",
-               "Formação de +900 alunos e desenvolvimento de LMS com microsserviços.",
+                "Desenvolvimento Full Stack com Node.js/TypeScript, Spring Boot/Java, Angular/TypeScript, React/TypeScript e SQL Server/MySQL. Arquitetura de sistemas escaláveis, liderança técnica e mentoria de equipes.",
+                "Formação de +900 alunos e desenvolvimento de LMS com microsserviços.",
               ],
               achievements: [
                 "Leciono Arquitetura e implementação de sistemas corporativos",
@@ -88,7 +88,7 @@ export const getCvData = (lang: Language = 'pt') => {
                 "Integração de serviços e APIs com foco em segurança e escalabilidade",
                 "Mentoria de projetos com foco em boas práticas e arquitetura"
               ],
-              techs: [ "Node.js", "Nestjs","Spring Boot", "Angular", "React", "SQL Server", "git/github"]
+              techs: ["Node.js", "Nestjs", "Spring Boot", "Angular", "React", "SQL Server", "git/github"]
             },
             {
               title: "Instrutor e Desenvolvedor",
@@ -130,7 +130,7 @@ export const getCvData = (lang: Language = 'pt') => {
         },
         {
           institution: "Estácio",
-          degree: "Tecnólogo: Data Modeling / Warehousing and Database Administration",         
+          degree: "Tecnólogo: Data Modeling / Warehousing and Database Administration",
           period: "",
           details: ["Modelar dados, administrar bancos de dados e implementar soluções de Data Warehouse, organização e análise eficiente de informações corporativas"]
         }
@@ -138,7 +138,7 @@ export const getCvData = (lang: Language = 'pt') => {
       projects: [
         {
           title: "NerdCodeFlix",
-          description: "Plataforma gamificada de cursos online focada na capacitação em tecnologia. Atuei como Desenvolvedor Full Stack, participando ativamente da arquitetura da plataforma e na criação de conteúdos técnicos imersivos de alta performance.",
+          description: "Plataforma gamificada de cursos online focada na capacitação em tecnologia. Atuo como Desenvolvedor Full Stack.",
           longDescription: "NerdCodeFlix é uma plataforma gamificada de ensino à distância projetada para revolucionar o aprendizado em tecnologia. Com uma interface UI/UX altamente imersiva inspirada em plataformas de streaming, o sistema oferece cursos dinâmicos e trilhas completas. Atuei de ponta a ponta, desde o desenho da arquitetura escalável utilizando Next.js, APIs de pagamento e mensageria, até a criação dos cursos oferecidos, garantindo alta disponibilidade, performance e uma jornada do usuário excepcional.",
           image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop",
           techs: ["Next.js", "TypeScript", "Stripe API", "Prisma ORM", "Redux", "Tailwind CSS", "JWT", "OAuth2", "Supabase API", "MySQL", "Docker", "Kubernetes", "Jenkins"],
@@ -153,7 +153,7 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
           techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "+2.000 alunos impactados em diversas plataformas",
-          githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
+          githubLink: "https://github.com/geandrol/Rob-de-Busca-de-Vagas-Tech",
           link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
         },
         {
@@ -165,14 +165,13 @@ export const getCvData = (lang: Language = 'pt') => {
           link: "#"
         },
         {
-          title: "Dashboards Educacionais & Analytics",
-          description: "Solução de Business Intelligence para empresas de educação, focada em métricas de engajamento, retenção e performance acadêmica. Integração direta com LMS e análise preditiva.",
-          longDescription: "Uma solução abrangente de Business Intelligence voltada para o setor educacional. Este dashboard interativo oferece visualizações detalhadas de métricas de engajamento, retenção de alunos e performance acadêmica. Construído com foco na experiência do usuário, permite a análise preditiva e integração direta com sistemas de gestão de aprendizagem (LMS), facilitando a tomada de decisão estratégica para instituições de ensino.",
-          image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
-          results: "Otimização de estratégias pedagógicas baseada em dados",
-          githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics",
-          link: "https://dashboards-educacionais-analytics-kappa.vercel.app/"
+          title: "Ovelhinha Game - Aplicativo Educacional Gamificado",
+          description: "Aplicativo mobile desenvolvido para promover o aprendizado infantil por meio de atividades lúdicas, desafios interativos e mecânicas de gamificação, proporcionando uma experiência divertida e educativa.",
+          longDescription: "Ovelhinha Game é uma aplicação mobile voltada para o público infantil, criada com o objetivo de tornar o processo de aprendizagem mais envolvente através da gamificação. O projeto utiliza uma interface intuitiva e responsiva, permitindo que crianças interajam com desafios educativos de forma simples e divertida. Desenvolvido com React Native e Expo, o aplicativo foi projetado para oferecer compatibilidade multiplataforma, boa performance e uma experiência fluida para os usuários.",
+          image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+          techs: ["React Native", "Expo", "Expo Router", "TypeScript", "JavaScript", "Mobile Development", "Android", "iOS", "Responsive Design", "Git", "GitHub"],
+          results: "Desenvolvimento de uma experiência educacional gamificada que estimula o aprendizado e o engajamento infantil através de dispositivos móveis.",
+          githubLink: "https://github.com/geandrol/ovelhinha-game"
         },
         {
           title: "Plataforma LMS Escalonável",
@@ -183,45 +182,15 @@ export const getCvData = (lang: Language = 'pt') => {
           link: "#"
         },
         {
-          title: "Sistema ERP Imobiliário",
-          description: "Plataforma de gestão para o setor imobiliário focada em performance e eficiência. Integração com múltiplos serviços de terceiros e mensageria para processamento assíncrono.",
-          longDescription: "Sistema ERP completo para imobiliárias, cobrindo gestão de imóveis, propostas comerciais, funil de vendas e acompanhamento operacional em tempo real. A solução integra serviços de terceiros e mensageria assíncrona para manter alta performance em processos críticos, com foco em produtividade e escalabilidade para equipes comerciais e administrativas.",
-          image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
-          results: "Aumentou a eficiência operacional em 35%",
-          githubLink: "https://github.com/Marcelo7211/ERP-projeto",
-          link: "https://erp-projeto.vercel.app/"
+          title: "Yu-Gi-Oh! QR Cards - Scanner e Gerador de QR Codes",
+          description: "Aplicação React inspirada no universo Yu-Gi-Oh!, permitindo escanear QR Codes de cartas e gerar novos códigos personalizados através de uma interface temática e interativa.",
+          longDescription: "Yu-Gi-Oh! QR Cards é uma aplicação web desenvolvida em React que combina a tecnologia de QR Codes com a temática do famoso anime Yu-Gi-Oh!. O sistema permite aos usuários escanear QR Codes associados às cartas para acessar informações rapidamente, além de gerar novos códigos personalizados de forma simples e intuitiva. O projeto foi construído com foco na experiência do usuário, utilizando uma interface inspirada no universo do anime para proporcionar uma navegação envolvente e visualmente atrativa. A aplicação demonstra conhecimentos em manipulação de câmera, leitura de QR Codes, geração dinâmica de conteúdo e desenvolvimento de interfaces modernas com React.",
+          image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=800&auto=format&fit=crop",
+          techs: ["React","JavaScript","HTML5","CSS3","QR Code Scanner","QR Code Generator","Web APIs","Responsive Design","Git","GitHub"],
+          results: "Implementação de uma solução interativa capaz de escanear e gerar QR Codes em tempo real, combinando tecnologia web moderna com uma experiência inspirada no universo Yu-Gi-Oh!.",
+          githubLink: "https://github.com/geandrol/ProjetinhoQRCode",
+           link: "https://projetinho-qr-code.vercel.app/"
         },
-        {
-          title: "Portal Financeiro & Corretagem",
-          description: "Aplicação robusta para corretoras, fornecendo análises em tempo real, integração de dados complexos e painéis de controle interativos de alta performance.",
-          longDescription: "Uma aplicação web White-Label de alta performance para o mercado financeiro, desenvolvida para oferecer uma experiência de SaaS Financeiro premium. O sistema combina dados em tempo real, simulação de trading e gestão de carteira em uma interface sofisticada e totalmente personalizável. Permite personalização instantânea de cores da marca, suporte a Dark/Light Mode e integração híbrida de dados de mercado (Alpha Vantage + Mocks).",
-          image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-          techs: ["Node.js", "NestJS", "React", "AWS", "Redis", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
-          results: "Reduziu latência de processamento de dados em 50%",
-          githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
-          link: "https://portal-financeiro-ten.vercel.app/"
-        },
-        {
-          title: "Dojo Paulista – Landing Page",
-          description: "Landing page desenvolvida para academia de artes marciais com foco na captação de novos alunos. Design moderno com navegação fluida, apresentação dos planos, diferenciais da escola e formulário de contato estrategicamente posicionado.",
-          longDescription: "Projeto de landing page completa para o Dojo Paulista, academia de artes marciais localizada em São Paulo. A página foi desenvolvida com foco total na conversão: apresenta o propósito da academia com a tagline 'Transformando Vidas, Forjando Campeões', detalha os planos disponíveis, destaca os diferenciais competitivos e oferece múltiplos pontos de contato ao longo da página. A navegação intuitiva inclui seções de Home, Nossos Planos, Loja, Sobre Nós e Fale Conosco, tudo com uma identidade visual forte e profissional que transmite credibilidade e inspira novos alunos.",
-          image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Typescript", "JavaScript", "Tailwind CSS"],
-          results: "Aumento de 40% na captação de novos alunos",
-          githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
-          link: "https://dojopaulista.vercel.app/"
-        },
-        {
-          title: "Carlos TRG – Landing Page de Terapia",
-          description: "Landing page criada para terapeuta com foco na captação e agendamento de consultas. Interface acolhedora e profissional com a proposta 'Transforme sua mente, reescreva sua história', otimizada para conversão de visitantes em pacientes.",
-          longDescription: "Landing page desenvolvida para Carlos TRG, terapeuta com atuação em São Paulo. A proposta do projeto foi criar uma presença digital empática e profissional, transmitindo confiança e acolhimento ao visitante em busca de apoio terapêutico. A página apresenta o terapeuta, seus serviços e abordagem, além de uma seção dedicada ao agendamento de sessões — ponto central de conversão da página. A navegação contempla Home, Sobre Mim, Agende uma Sessão, Fale Conosco e Nossos Serviços, com uma identidade visual sofisticada em tons de azul e lilás que reforça a proposta transformadora da terapia.",
-          image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Typescript", "CalendarApi", "JavaScript", "Tailwind CSS"],
-          results: "Aumento em 80% na captação de novos pacientes, reduçao de 100% no indice de conflitos de agendamentos.",
-          githubLink: "https://github.com/Marcelo7211/carlostrg",
-          link: "https://carlostrg.vercel.app/"
-        }
       ]
     },
   };
