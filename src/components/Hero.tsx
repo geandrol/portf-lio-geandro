@@ -128,7 +128,7 @@ export const Hero = () => {
 
             <FloatingBadge className="bottom-0 left-10 md:left-0 z-20" delay={2.5}>
               <span className="w-3 h-3 rounded-full bg-[#512BD4]"></span>
-              <span className="font-bold text-gray-800 dark:text-white">.NET Core</span>
+              <span className="font-bold text-gray-800 dark:text-white">SQL Server</span>
             </FloatingBadge>
           </div>
         </motion.div>

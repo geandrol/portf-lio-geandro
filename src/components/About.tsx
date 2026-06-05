@@ -6,7 +6,7 @@ export const About = () => {
   const { t } = useLanguage();
 
   const highlights = [
-    { icon: Terminal, title: "+10 Anos", desc: t.about.experience },
+    { icon: Terminal, title: "+4 Anos", desc: t.about.experience },
     { icon: Lightbulb, title: "Liderança", desc: t.about.leadership },
     { icon: Rocket, title: "Arquitetura", desc: t.about.architecture },
     { icon: Users, title: "Mentoria", desc: t.about.mentoring },
