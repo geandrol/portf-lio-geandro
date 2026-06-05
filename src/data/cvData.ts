@@ -13,7 +13,7 @@ export const getCvData = (lang: Language = 'pt') => {
         github: "https://github.com/geandrol",
         portfolioGithub: "https://github.com/Marcelo7211",
         cvUrl: "",
-        summary: "Profissional com mais de 10 anos de experiência em desenvolvimento de software e liderança técnica. Atua na interseção entre tecnologia, educação e transformação digital, com foco em sistemas escaláveis, alta disponibilidade e formação de equipes de alto desempenho."
+        summary: "Profissional com mais de 04 anos de experiência em desenvolvimento de software e liderança técnica. Atua na interseção entre tecnologia, educação e transformação digital, com foco em sistemas escaláveis, alta disponibilidade e formação de equipes de alto desempenho."
       },
       skills: {
         frontend: [
